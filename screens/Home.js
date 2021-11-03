@@ -11,16 +11,12 @@ import React, { Component } from 'react'
 export default class Home extends Component{
     static navigationOptions = {
         title: 'Home',
-        //Sets Header text of Status Bar
         headerStyle: {
           backgroundColor: '#f4511e',
-          //Sets Header color
         },
         headerTintColor: '#fff',
-        //Sets Header text color
         headerTitleStyle: {
           fontWeight: 'bold',
-          //Sets Header text style
         },
       };
 
@@ -96,41 +92,5 @@ const styles = StyleSheet.create({
   },
 });
     
-        
-    
-            style={{
-                width: 70,
-                height: 70,
-                marginLeft:10
-            }}
-             source = {{
-                 uri: "https://www.pngkit.com/png/detail/22-223312_png-black-and-white-download-burlap-vector-bag.png"
-                 }}/>
-            </View>
-            <View style={{flexDirection:"column"}}>
-            <Text style = {{color: 'black', fontSize: 20, fontWeight: '600'}}>
-                We have various kinds of products to make you feel good.
-            </Text>
-            <Text style = {{color: 'white', fontSize: 50, fontWeight: '600'}}>
-                
-                </Text>
-            <TouchableOpacity
-                style = {{backgroundColor: 'orange', 
-                borderRadius: 10,
-                flexDirection: "row",
-                padding: 10, 
-                paddingHorizontal: 80
-        }}
-                >
-                   <AntDesign name="arrowright" size={24} color="black" />  
-             <Text style = {{fontSize: 20, marginLeft: 10}}> Start Searching</Text>
-            
-             </TouchableOpacity>
-            </View>
-            </View>
-            </View>
-            )
-            }
-            }
         
     
