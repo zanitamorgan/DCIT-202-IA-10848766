@@ -39,7 +39,7 @@ export default function Login({navigation}){
             </Text>
             <TouchableOpacity
             onPress = {() => {
-            navigation.navigate("Home")
+            navigation.navigate("GmailLogin")
             }}
                 style = {{backgroundColor: '#808080', 
                 borderRadius: 10,
@@ -53,7 +53,7 @@ export default function Login({navigation}){
              </TouchableOpacity>
             <TouchableOpacity
             onPress={() =>{
-                navigation.navigate("Home")
+                navigation.navigate("GmailLogin")
             }}
                 style = {{backgroundColor: 'white', 
                 borderRadius: 10,
@@ -67,12 +67,21 @@ export default function Login({navigation}){
              <Text style = {{fontSize: 20, color: 'black', marginLeft: 10}}> Login with Apple</Text>
             </TouchableOpacity>
             </View>
-            <TouchableOpacity>
+            <View style={{flexDirection:"row"}}>
             <Text style= {{marginTop: 10, fontWeight: '500', color:'#808080'}}>
-             Not a member?{" "} 
-             <Text style = {{ color: 'orange'}}>Sign up</Text>
-                 </Text>
-                 </TouchableOpacity>
+             Not a member?
+            </Text> 
+                
+                 <TouchableOpacity>
+                
+                <Text 
+                onPress = {() => {
+                    navigation.navigate("SignUpPage")
+                    }}style= {{marginTop: 10, fontWeight: '500', color:'orange', marginLeft:10}}>
+                Sign Up
+                </Text> 
+                </TouchableOpacity>
+                 </View>
         </View>
         
     )
