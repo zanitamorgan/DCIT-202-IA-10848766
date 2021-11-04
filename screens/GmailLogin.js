@@ -29,6 +29,12 @@ export default function App({navigation}) {
             <Text style = {{color: 'white', fontSize: 50, fontWeight: '600'}}>
                 
                 </Text>
+                <Text style = {{color: 'white', fontSize: 20, fontWeight: '600'}}>
+                Welcome!
+                </Text> 
+                <Text style = {{color: 'white', fontSize: 20, fontWeight: '600'}}>
+               
+                </Text>
       <StatusBar style="auto" />
       <View style={styles.inputView}>
         <TextInput
