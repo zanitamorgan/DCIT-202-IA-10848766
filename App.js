@@ -8,6 +8,7 @@ import Home from './screens/Home';
 import GmailLogin from './screens/GmailLogin';
 import Cart from './screens/Cart';
 import SignUpPage from './screens/SignUpPage';
+import Addtocart from './screens/Addtocart'
 
 export default function App() {
   const MainNavigator = createStackNavigator();
@@ -21,12 +22,12 @@ export default function App() {
           <MainNavigator.Screen name = "GmailLogin" component={GmailLogin} />
           <MainNavigator.Screen name = "SignUpPage" component={SignUpPage} />
           <MainNavigator.Screen name = "Cart" component={Cart} />
+          <MainNavigator.Screen name = "Addtocart" component={Addtocart} />
         </MainNavigator.Navigator>
       </NavigationContainer>
     </View>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
@@ -36,3 +37,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
