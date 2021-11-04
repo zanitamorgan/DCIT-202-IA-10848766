@@ -26,7 +26,13 @@ export default function SignUpPage({navigation}) {
              source = {{
                  uri: "https://www.pngkit.com/png/detail/22-223312_png-black-and-white-download-burlap-vector-bag.png"
                  }}/>
-            <Text style = {{color: 'white', fontSize: 50, fontWeight: '600'}}>
+                  <Text style = {{color: 'white', fontSize: 20, fontWeight: '600'}}>
+                
+                </Text>
+            <Text style = {{color: 'white', fontSize: 20, fontWeight: '600'}}>
+                Welcome!
+                </Text>
+                <Text style = {{color: 'white', fontSize: 20, fontWeight: '600'}}>
                 
                 </Text>
       <StatusBar style="auto" />
@@ -69,7 +75,7 @@ export default function SignUpPage({navigation}) {
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}
-          placeholder="Mobile Number"
+          placeholder="Mobile"
           placeholderTextColor="#003f5c"
           secureTextEntry={true}
         type="text"
