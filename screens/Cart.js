@@ -32,7 +32,6 @@ export default function Cart({navigation}) {
              source = {{
                  uri: "https://www.pngkit.com/png/detail/22-223312_png-black-and-white-download-burlap-vector-bag.png"
                  }}/>
-                 
 
                  <View style={{flex: 1, flexDirection: "row",justifyContent: "space-around"}}>
                 <ScrollView>
